@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.container {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.container .header {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  z-index: 1000;
+}
+.container .header img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container .header .button-back {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container .main {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background: #fff;
+  flex-grow: 1;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.container .main .title {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  height: 50px; /* Sesuaikan tinggi dengan kebutuhan Anda */
+}
+.container .main .title p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0; /* Reset margin to remove any default spacing */
+  align-self: center; /* Menengahkan elemen <p> di dalam .title */
+  color: green;
+}
+.container .main .content-flex {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.container .main .content-flex .icons {
+  color: #85bc37;
+  font-size: 25px;
+  align-self: center;
+}
+.container .main .content-flex .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #e1eecd;
+  justify-content: center;
+  border-radius: 10px;
+  display: flex;
+}
+.container .main .content-flex .icon i {
+  color: #85bc37;
+  font-size: 25px;
+  align-self: center;
+}
+.container .main .content-flex .icons {
+  width: 50px;
+  height: 50px;
+  background-color: #e1eecd;
+  justify-content: center;
+  border-radius: 10px;
+  display: flex;
+}
+.container .main .content-flex .icons i {
+  color: #85bc37;
+  font-size: 25px;
+  align-self: center;
+}
+.container .main .content-flex .jadwal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.container .main .content-flex .jadwal .jadwal-title {
+  font-weight: 500;
+  font-size: 15px;
+}
+.container .main .content-flex .jadwal .jadwal-description {
+  font-size: 14px;
+  color: #808080;
+}
+.container .main .content {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.container .main .content p {
+  font-size: 14px;
+  color: #808080;
+  text-align: justify;
+}
+.container .main form {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container .main form .form-group {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* Gaya untuk placeholder */
+  /* Gaya untuk placeholder saat di-focus */
+}
+
+.container .main form .form-group input[type=text] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+.container .main form .form-group input[type=text]:focus {
+  border-color: #007bff;
+}
+.container .main form .form-group input[type=text]:focus::-moz-placeholder {
+  color: #888;
+  margin-left: 10px;
+}
+.container .main form .form-group input[type=text]:focus::placeholder {
+  color: #888;
+  margin-left: 10px;
+}
+
+
+.container .main form .form-group input[type=number] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+.container .main form .form-group input[type=number]:focus {
+  border-color: #007bff;
+}
+.container .main form .form-group input[type=number]:focus::-moz-placeholder {
+  color: #888;
+  margin-left: 10px;
+}
+.container .main form .form-group input[type=number]:focus::placeholder {
+  color: #888;
+  margin-left: 10px;
+}
+
+.container .main form .form-group textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+.container .main form .form-group textarea::-moz-placeholder {
+  color: #aaa;
+}
+.container .main form .form-group textarea::placeholder {
+  color: #aaa;
+}
+.container .main form .form-group textarea:focus::-moz-placeholder {
+  color: #888;
+}
+.container .main form .form-group textarea:focus::placeholder {
+  color: #888;
+}
+.container .footer {
+  background-color: #fff;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.1);
+}
+.container .footer .price {
+  margin: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer .button-daftar {
+  width: 100%;
+}
+.container .footer .button-daftar .buttondaftar {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
+
+.buttonpembayaran {
+  margin-left: 10px;
+  width: 95%;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color:orangered;
+  color: white;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.1);
+ 
+}/*# sourceMappingURL=style.css.map */
+
+.text-danger{
+  color: red;
+}
+
+.m{
+ padding-bottom: 30px;
+}
