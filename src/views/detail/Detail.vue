@@ -107,8 +107,6 @@ import { ref, reactive, watch } from 'vue'
     function storeTransaksi() {
      
      //define variable
-   
-
      let formData = new FormData();
 
      formData.append('nama', this.transaksi.nama)
@@ -116,7 +114,7 @@ import { ref, reactive, watch } from 'vue'
         formData.append('whatsapp', this.transaksi.whatsapp)
         formData.append('alamat', this.transaksi.alamat)
         formData.append('amount', this.transaksi.amount)
-        formData.append('qty', this.transaksi.qtyt)
+        formData.append('qty', this.transaksi.qty)
      
      formData.append("_method", "POST");
      //panggil actions "register" dari module "auth"
