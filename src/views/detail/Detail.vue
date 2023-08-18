@@ -90,10 +90,10 @@ import { ref, reactive, watch } from 'vue'
     //state donation
     const transaksi = reactive({
         amount: 295000,   
-        nama: 'romadhon', 
-        email:'masroma75@gmail.com',
-        whatsapp:'082299995502',
-        alamat:'jln mutiara',
+        nama: '', 
+        email:'',
+        whatsapp:'',
+        alamat:'',
         qty:1
         
     })
