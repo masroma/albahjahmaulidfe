@@ -3,7 +3,7 @@
         <!-- header -->
         <div class="header">
       
-            <img src="/maulidakbar2020.jpg" alt="banner maulid" >
+            <img src="/maulidakbar.jpeg" alt="banner maulid" >
            
 
             <router-link :to="{name: 'home'}" v-if="this.$route.name == 'detail'">

@@ -2,7 +2,7 @@
    <div>
     <div class="main">
         <div class="title">
-            <p>Maulid Akbar Majelis Al-Bahjah <br />1445 H / 2023 M</p>
+            <p>Maulid Nabi & Silaturrahmi Akbar <br />1445 H / 2023 M</p>
         </div>
         <div class="content-flex">
             <div class="icon">
@@ -10,7 +10,7 @@
             </div>
             <div class="jadwal">
                 <p class="jadwal-title">Tanggal Keberangkatan</p>
-                <p class="jadwal-description">29 September 2023 - 30 September 2023</p>
+                <p class="jadwal-description">1 Rabiul Awal 1445 / 16 September 2023</p>
             </div>
         </div>
         <div class="content-flex">
@@ -19,7 +19,7 @@
             </div>
             <div class="jadwal">
                 <p class="jadwal-title">Waktu Keberangkatan</p>
-                <p class="jadwal-description">10.00 WIB </p>
+                <p class="jadwal-description">07.00 WIB </p>
             </div>
         </div>
         <div class="content-flex">
@@ -29,6 +29,16 @@
             <div class="jadwal">
                 <p class="jadwal-title">Titik Kumpul</p>
                 <p class="jadwal-description">Masjid Raya Al-Azom Tangerang </p>
+            </div>
+        </div>
+
+        <div class="content-flex">
+            <div class="icon">
+                <i class="fa-solid fa-bowl-food"></i>
+            </div>
+            <div class="jadwal">
+                <p class="jadwal-title">Fasilitas</p>
+                <p class="jadwal-description">Snack dan makan 3x </p>
             </div>
         </div>
 
