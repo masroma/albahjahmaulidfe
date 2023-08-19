@@ -8,8 +8,6 @@
             <div class="button-daftar">
                 <router-link :to="{name: 'detail'}" class="buttondaftar" >Daftar Sekarang</router-link>
 
-              
-
             </div>
         </div>
          
