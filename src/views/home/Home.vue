@@ -44,11 +44,12 @@
 
         <div class="content-flex">
             <div class="icon">
-                <i class="fa-solid fa-bowl-food"></i>
+                <i class="fa-brands fa-whatsapp"></i>
             </div>
             <div class="jadwal">
-                <p class="jadwal-title">Kontak Panitia</p>
+             <p class="jadwal-title">Kontak Panitia</p> 
                 <p class="jadwal-description">
+                 
                    <div class="kontak">
                     <a href="https://wa.me/6282261864621">Kang Zaenal</a><br/>
                     <a href="https://wa.me/628999971978">Kang Jamali</a>
